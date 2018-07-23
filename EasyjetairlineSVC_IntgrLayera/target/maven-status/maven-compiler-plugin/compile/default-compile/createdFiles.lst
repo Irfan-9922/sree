@@ -1,0 +1,9 @@
+com\easyjet\airlines\eservice\intg\Valubean\ResponcedaoBEAN.class
+com\easyjet\airlines\eservice\intg\impl\EasyJetAirLineSvcDaoImpl.class
+com\easyjet\airlines\eservice\Intga\Util\easyjetAirlineIntgConstant.class
+com\easyjet\airlines\eservice\Intga\Util\easyjetAirlineIntgUtil.class
+com\easyjet\airlines\eservice\intg\impl\EasyJetAirLineSvcDao.class
+com\easyjet\airlines\eservice\intg\Valubean\Addressreqbeanint.class
+com\easyjet\airlines\eservice\intg\Valubean\easyjetAirlineIntgVbResp.class
+com\easyjet\airlines\eservice\intg\Valubean\easyjetAirlineIntgVbReq.class
+com\easyjet\airlines\eservice\intg\Valubean\StatusdaoBEAN.class

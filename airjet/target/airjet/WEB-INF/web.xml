@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+
+<servlet-name>EaservicePort</servlet-name>
+<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>EaservicePort</servlet-name>
+<url-pattern>/EaservicePort</url-pattern>
+</servlet-mapping>
+<listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
+</web-app>

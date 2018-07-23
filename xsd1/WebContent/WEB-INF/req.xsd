@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.welssforgo.com/stmtHistory/schema/req"
+
+  xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.welssforgo.com/stmtHistory/schema/req"
+
+  
+ elementFormDefault="qualified" >
+    <element name="StatementHistoryreq"
+    	type="tns:StatementHistorReqType">
+    </element>
+    
+    <complexType name="StatementHistorReqType">
+    	<sequence>
+    		<element name="ClientContext" type="tns:ClientContextType" />
+    		<element name="AccInfo" type="tns:AccInfoType"></element>
+    		<element name="RewardProg" type="tns:RewardProgType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="AccInfoType">
+    	<sequence>
+    		<element name="CardNum" type="string"></element>
+    		<element name="CVVNum" type="string"></element>
+    		<element name="ExpDate" type="string"></element>
+    		<element name="NameOnCard" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="RewardProgType">
+    	<sequence>
+    		<element name="TypeAndCatagory" type="string"></element>
+    		<element name="StatementHistory" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="ClientContextType">
+    	<sequence>
+    		<element name="ClientId" type="string"></element>
+    		<element name="ChannelId" type="string"></element>
+    		<element name="Requestid" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

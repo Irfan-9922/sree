@@ -1,0 +1,11 @@
+com\easyjet\airlines\eservice\process\Impl\EasyJetAirLineSvcProcess.class
+com\easyjet\airlines\eservice\process\Valubean\ResponceBEAN.class
+com\easyjet\airlines\eservice\process\Valubean\easyjetAirlineProcessVbReq.class
+com\easyjet\airlines\eservice\process\Valubean\Addressreqbean.class
+com\easyjet\airlines\eservice\process\Util\easyjetAirlineprocessUtil.class
+com\easyjet\airlines\eservice\process\Util\easyjetAirlineprocessConstant.class
+com\easyjet\airlines\eservice\process\Builder\easyjetAirlineProcessReqBuilder.class
+com\easyjet\airlines\eservice\process\Impl\EasyJetAirLineSvcProcessImpl.class
+com\easyjet\airlines\eservice\process\Valubean\easyjetAirlineProcessVbResp.class
+com\easyjet\airlines\eservice\process\Valubean\StatusBEAN.class
+com\easyjet\airlines\eservice\process\Builder\easyjetAirlineProcessRespBuilder.class

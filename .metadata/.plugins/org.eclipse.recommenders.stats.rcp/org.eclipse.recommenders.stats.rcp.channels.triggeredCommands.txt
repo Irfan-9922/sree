@@ -1,0 +1,4 @@
+{"commandID":"org.eclipse.ui.file.refresh","sessionStarted":1497950323825,"count":0}
+{"commandID":"org.eclipse.jdt.debug.ui.localJavaShortcut.run","sessionStarted":1497950468076,"count":0}
+{"commandID":"org.eclipse.jdt.junit.junitShortcut.run","sessionStarted":1497950614549,"count":0}
+{"commandID":"org.eclipse.ui.file.save","sessionStarted":1497951174580,"count":0}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.easyjet.com/airlines/schemas/enroll/responce"
+ xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:resp="http://www.easyjet.com/airlines/schemas/enroll/responce"
+  elementFormDefault="qualified">
+    <element name="EnrollmentResponce" type="resp:EnrollmentResponceType"></element>
+
+    <complexType name="EnrollmentResponceType">
+    	<sequence>
+    		<element name="Status" type="resp:StatusType"></element>
+    		<element name="ResponceMessage" type="resp:ResponceType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="StatusType">
+    	<sequence>
+    		<element name="ResopnceCode" type="string"></element>
+    		<element name="RespMessage" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="ResponceType">
+    	<sequence>
+    		<element name="Pan" type="string"></element>
+    		<element name="FirstName" type="string"></element>
+    		<element name="LastName" type="string"></element>
+    		<element name="CardNumber" type="string"></element>
+    		<element name="CampignCode" type="string"></element>
+    		<element name="PartnerCode" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

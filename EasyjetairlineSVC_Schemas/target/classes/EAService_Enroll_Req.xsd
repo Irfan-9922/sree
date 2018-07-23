@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+ xmlns:req="http://www.easyjet.com/airlines/schemas/enroll/request"
+  targetNamespace="http://www.easyjet.com/airlines/schemas/enroll/request"
+  elementFormDefault="qualified">
+    <element name="EnrollmentReq" type="req:EnrollmentReqType"/>
+   
+    <complexType name="EnrollmentReqType">
+    	<sequence>
+    		<element name="ClientDetails"
+    			type="req:ClientDetailsType">
+    		</element>
+    		<element name="CustomerDetails"
+    			type="req:CustomerDetailsType">
+    		</element>
+    		<element name="ServiceDetails"
+    			type="req:ServiceDetailsType">
+    		</element>
+    		<element name="Address" type="req:AddressType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="ClientDetailsType">
+    	<sequence>
+    		<element name="clientId" type="string"></element>
+    		<element name="channelId" type="string"></element>
+    		<element name="requestId" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="CustomerDetailsType">
+    	<sequence>
+    		<element name="Tital" type="string"></element>
+    		<element name="FirstName" type="string"></element>
+    		<element name="LastName" type="string"></element>
+    		<element name="MiddelName" type="string"></element>
+    		<element name="DOB" type="string"></element>
+    		<element name="Gender" type="string"></element>
+    		<element name="Address" type="string"></element>
+    		<element name="City" type="string"></element>
+    		<element name="Countery" type="string"></element>
+    		<element name="Postal" type="string"></element>
+    		<element name="CardNumber" type="string"></element>
+    		<element name="ExpiryDate" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="ServiceDetailsType">
+    	<sequence>
+    		<element name="ServiceName" type="string"></element>
+    		<element name="APIName" type="string"></element>
+    		<element name="Version" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="AddressType">
+    	<sequence>
+    		<element name="AddressLine1" type="string"></element>
+    		<element name="AddressLine2" type="string"></element>
+    		<element name="Addressline3" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

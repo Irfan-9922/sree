@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+ xmlns:tns="http://www.welssforgo.com/stmtHistory/schema/resp" 
+ targetNamespace="http://www.welssforgo.com/stmtHistory/schema/resp"
+
+elementFormDefault="qualified">
+    <element name="StatementHistoryResp"
+    	type="tns:StatementHistoryResptype">
+    </element>
+    
+    <complexType name="StatementHistoryResptype">
+    	<sequence>
+    		<element name="StatusBlock" type="tns:StatusBlockType"></element>
+    		<element name="RewardSummery"
+    			type="tns:RewardSummeryType">
+    		</element>
+    		<element name="StmtTxt" type="tns:StmtTxtType"></element>
+    	</sequence>
+    </complexType>
+
+
+
+    <complexType name="StatusBlockType">
+    	<sequence>
+    		<element name="RespCode" type="string"></element>
+    		<element name="RespMsg" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="RewardSummeryType">
+    	<sequence>
+    		<element name="AvlaiblePts" type="string"></element>
+    		<element name="PendingPts" type="string"></element>
+    		<element name="EarnedPts" type="string"></element>
+    		<element name="ForFittedPts" type="string"></element>
+    		<element name="Adjustedpts" type="string"></element>
+    	</sequence>
+    </complexType>
+  
+    <complexType name="StmtTxtType">
+    	<sequence>
+    		<element name="Transaction" type="tns:TransactionType" minOccurs="3" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+    
+
+    <complexType name="TransactionType">
+    	<sequence>
+    		<element name="TxId" type="string"></element>
+    		<element name="Date" type="string"></element>
+    		<element name="Murchantname" type="string"></element>
+    		<element name="Amount" type="string"></element>
+    	</sequence>
+    </complexType>
+
+
+    <complexType name="irfanType">
+    	<sequence>
+    		<element name="bushara" type="tns:BushraType"></element>
+    		<element name="rashi" type="tns:rashiType"></element>
+    		<element name="didi" type="tns:didiType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="BushraType">
+    	<sequence>
+    		<element name="where" type="tns:whereType"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="rashiType">
+    	<sequence>
+    		<element name="babulkatukada" type="string" minOccurs="2"
+    			maxOccurs="4">
+    		</element>
+    		<element name="ghar" type="string" minOccurs="4" maxOccurs="12"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="didiType">
+    	<sequence>
+    		<element name="where" type="tns:wherType"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="whereType">
+    	<sequence>
+    		<element name="home" type="string" minOccurs="22"
+    			maxOccurs="44">
+    		</element>
+    		<element name="khatkali" type="string" minOccurs="2"
+    			maxOccurs="6">
+    		</element>
+    		<element name="katshuri" type="string" minOccurs="22"
+    			maxOccurs="44">
+    		</element>
+    		<element name="midshingi" type="string" minOccurs="6"
+    			maxOccurs="12">
+    		</element>
+    		<element name="gaonkar" type="string" minOccurs="3"
+    			maxOccurs="6">
+    		</element>
+    		<element name="ramukaghar" type="string" minOccurs="10"
+    			maxOccurs="19">
+    		</element>
+    		<element name="motiram" type="string" minOccurs="20"
+    			maxOccurs="22">
+    		</element>
+    		<element name="shunkatukda" type="string" minOccurs="20" maxOccurs="33"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="wherType">
+    	<sequence>
+    		<element name="home" type="string" minOccurs="50"
+    			maxOccurs="89">
+    		</element>
+    		<element name="katshuri" type="string" minOccurs="22"
+    			maxOccurs="44">
+    		</element>
+    		<element name="kahtkali" type="string" minOccurs="23" maxOccurs="33"></element>
+    	</sequence>
+    </complexType>
+</schema>

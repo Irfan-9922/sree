@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:StatementHistoryResp xmlns:tns="http://www.welssforgo.com/stmtHistory/schema/resp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.welssforgo.com/stmtHistory/schema/resp resp.xsd ">
+  <tns:StatusBlock>
+    <tns:RespCode>tns:RespCode</tns:RespCode>
+    <tns:RespMsg>tns:RespMsg</tns:RespMsg>
+  </tns:StatusBlock>
+  <tns:RewardSummery>
+    <tns:AvlaiblePts>tns:AvlaiblePts</tns:AvlaiblePts>
+    <tns:PendingPts>tns:PendingPts</tns:PendingPts>
+    <tns:EarnedPts>tns:EarnedPts</tns:EarnedPts>
+    <tns:ForFittedPts>tns:ForFittedPts</tns:ForFittedPts>
+    <tns:Adjustedpts>tns:Adjustedpts</tns:Adjustedpts>
+  </tns:RewardSummery>
+  <tns:StmtTxt>
+    <tns:Transaction>
+      <tns:TxId>tns:TxId</tns:TxId>
+      <tns:Date>tns:Date</tns:Date>
+      <tns:Murchantname>tns:Murchantname</tns:Murchantname>
+      <tns:Amount>tns:Amount</tns:Amount>
+    </tns:Transaction>
+    <tns:Transaction>
+      <tns:TxId>tns:TxId</tns:TxId>
+      <tns:Date>tns:Date</tns:Date>
+      <tns:Murchantname>tns:Murchantname</tns:Murchantname>
+      <tns:Amount>tns:Amount</tns:Amount>
+    </tns:Transaction>
+    <tns:Transaction>
+      <tns:TxId>tns:TxId</tns:TxId>
+      <tns:Date>tns:Date</tns:Date>
+      <tns:Murchantname>tns:Murchantname</tns:Murchantname>
+      <tns:Amount>tns:Amount</tns:Amount>
+    </tns:Transaction>
+  </tns:StmtTxt>
+ 
+</tns:StatementHistoryResp>

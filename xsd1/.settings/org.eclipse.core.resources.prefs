@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/demo/Simple.java=UTF-8
+encoding//src/demo/SimplePortBindingImpl.java=UTF-8
+encoding//src/demo/SimplePortBindingSkeleton.java=UTF-8
+encoding//src/demo/SimplePortBindingStub.java=UTF-8
+encoding//src/demo/SimpleService.java=UTF-8
+encoding//src/demo/SimpleServiceLocator.java=UTF-8

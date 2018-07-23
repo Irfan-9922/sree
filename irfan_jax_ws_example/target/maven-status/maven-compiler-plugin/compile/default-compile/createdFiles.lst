@@ -1,0 +1,14 @@
+com\easyjet\airlines\schemas\enroll\request\AddressType.class
+com\easyjet\airlines\schemas\enroll\responce\ObjectFactory.class
+com\easyjet\airlines\schemas\enroll\responce\ResponceType.class
+com\easyjet\airlines\schemas\enroll\request\ServiceDetailsType.class
+com\easyjet\airlines\schemas\enroll\request\package-info.class
+com\easyjet\airlines\schemas\enroll\responce\StatusType.class
+com\easyjet\schema\easervice\Easervice.class
+com\easyjet\airlines\schemas\enroll\request\ClientDetailsType.class
+com\easyjet\airlines\schemas\enroll\request\EnrollmentReqType.class
+com\easyjet\airlines\schemas\enroll\responce\package-info.class
+com\easyjet\airlines\schemas\enroll\responce\EnrollmentResponceType.class
+com\easyjet\schema\easervice\EasyJetService.class
+com\easyjet\airlines\schemas\enroll\request\CustomerDetailsType.class
+com\easyjet\airlines\schemas\enroll\request\ObjectFactory.class

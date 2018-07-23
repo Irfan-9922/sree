@@ -1,0 +1,20 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package snippet;
+
+/**
+ * @author :IRFAN
+ *TIME:7:58:05 pm
+ * DATE:11-May-2017
+ *PROJECTNAME:EasyjetairlineSVC_Artifacts
+ */
+public class Snippet {
+	/**
+	 * 
+	 */
+	public static void main(String[] args) {
+		src\main\resources\EAService.wsdl
+	}
+}
+
